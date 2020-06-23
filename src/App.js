@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import { Button } from "reactstrap";
+
+import "bootstrap/dist/css/bootstrap.css";
+
+import Body from "./Pages/HomePage/Body"
+import AuthorPage from "./Pages/ProfilePage/Profile"
+// import Pagination from "./components/Pagination/Pagination"
+
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import PostPage from './Pages/PostPage/PostPage';
+import MostLikedPost from "./Pages/MostLikedPost/MostLikedPost"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={Body}/>
+                    <Route exact path="/MostLikedPost" component={MostLikedPost}/>
+                    <Route exact path="/MostCommentPost" component={MostLikedPost}/>
+                    <Route exact path="/:pageNo" component={Body}/>
+                    <Route exact path="/profile/:authorId" component={AuthorPage}/>
+                    <Route exact path="/Post/:postId" component={PostPage}/>
+                </Switch>
+                {/* <Body/> */}
+            </Router>
+        </div>
+    );
 }
 
 export default App;
