@@ -19,6 +19,9 @@
      5. http://mohitfakedata.azurewebsites.net/Posts/id (retrive pericular one post)
      6. http://mohitfakedata.azurewebsites.net/comments (retrive All comments)
      7. http://mohitfakedata.azurewebsites.net/comments/id (retrive pericular one comment)
+     
+     Notes :  If you want to see, how i develope this api's then you can refer this link:
+              https://github.com/MohitSojitra/fake-json-data.git
 
 
 ## Available Scripts
