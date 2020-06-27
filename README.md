@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple React Blog Website.
+ 
+ 
+# live webiste at :- https://mohitblog.azurewebsites.net 
+ 
+ 
+ ## concepts Are Used : 
+      1. Reacts Hooks
+      2. React Routing 
+      3. Fetching Api's
+      4. Pagination
+      5. Diffrent Sorting
+      
+ ## Used Api :
+     1. http://mohitfakedata.azurewebsites.net (retrive all data)
+     2. http://mohitfakedata.azurewebsites.net/authors (retrive all authors)
+     3. http://mohitfakedata.azurewebsites.net/authors/id (retrive pericular one author)
+     4. http://mohitfakedata.azurewebsites.net/Posts (retrive all posts)
+     5. http://mohitfakedata.azurewebsites.net/Posts/id (retrive pericular one post)
+     6. http://mohitfakedata.azurewebsites.net/comments (retrive All comments)
+     7. http://mohitfakedata.azurewebsites.net/comments/id (retrive pericular one comment)
+
 
 ## Available Scripts
 
@@ -37,32 +58,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
