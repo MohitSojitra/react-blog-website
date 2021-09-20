@@ -1,7 +1,7 @@
 
 # React Blog Website.
 
-### live webiste at :- https://mohitblog.azurewebsites.net
+### live webiste at :- https://jsom-blog.vercel.app/
 
 ## concepts Are Used :
 
