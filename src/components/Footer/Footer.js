@@ -1,10 +1,10 @@
-import React from "react";
+import React, {memo} from 'react'
 
-function Footer(){
-    return(
-        <div className="card-footer text-muted text-center font-weight-bolder p-5 m-2">
-                   Design By JSOM (MOHIT SOJITRA) ---- ----- ------ Gided BY CHINTAN RAJPARA
-        </div>
-    );
+function Footer() {
+  return (
+    <div className="card-footer text-muted text-center font-weight-bolder p-5 m-2">
+      Made with &hearts; by Mohit Sojitra
+    </div>
+  )
 }
-export default Footer;
+export default memo(Footer)

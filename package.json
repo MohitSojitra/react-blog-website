@@ -8,8 +8,6 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
-    "express": "^4.17.1",
-    "express-favicon": "^2.0.1",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,7 +16,8 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
-    "start": "node server.js",
+    "start-prod": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
