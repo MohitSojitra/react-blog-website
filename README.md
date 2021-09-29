@@ -1,7 +1,7 @@
 
 # React Blog Website.
 
-### live webiste at :- https://jsom-blog.vercel.app/
+### live webiste at :- https://react-blog-website.vercel.app/
 
 ## concepts Are Used :
 
